@@ -9,8 +9,10 @@ func curry(x int) func() int {
 }
 
 func main() {
-	//A “callback” is when we pass a func into a func as an argument. For this exercise,
-	//	pass a func into a func as an argument
+	//Create a func which returns a func
+	//assign the returned func to a variable
+	//call the returned func
+
 
 
 	f := curry(10)
